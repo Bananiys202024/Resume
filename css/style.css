@@ -1,0 +1,91 @@
+header
+{
+    position: relative;
+    height: 100vh;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 url(../img/header-background.jpg) no-repeat top center;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    text-align: center;
+    overflow: hidden;
+}
+
+#about
+{
+    background: #2B2B2B;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+#portfolio {
+    background: #ebeeee;
+    height:100vh;
+}
+
+
+header ul li
+{
+    position: relative;
+    list-style: none;
+    height: 48px;
+    display: inline-block;
+    padding-right:1em;
+}
+
+header ul
+{
+    font: 12px 'opensans-bold', sans-serif;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin: 0 auto;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: initial;
+}
+
+.responsive-headline
+{
+
+    font: 90px/1.1em 'opensans-bold', sans-serif;
+    color: #fff;
+    letter-spacing: -2px;
+    margin: 0 auto 18px auto;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+}
+
+.row-banner
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 30px;
+    
+}
+
+.row-top-menu
+{
+    display:list-item;
+}
+
+.sub-header
+{
+    font: 18px/1.9em 'librebaskerville-regular', serif;
+    color: #A8A8A8;
+    margin: 0 auto;
+    width: 70%;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+}
+
+.container
+{
+    height:100vh;
+    display: flex;
+    align-items: center;
+}
+
