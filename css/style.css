@@ -13,9 +13,7 @@ header
 
 #about
 {
-    background: #2B2B2B;
-    height: 100vh;
-    overflow: hidden;
+
 }
 
 
@@ -28,10 +26,14 @@ header
 header ul li
 {
     position: relative;
-    list-style: none;
     height: 48px;
     display: inline-block;
     padding-right:1em;
+}
+
+ul
+{
+    list-style: none;
 }
 
 header ul
@@ -84,8 +86,137 @@ header ul
 
 .container
 {
-    height:100vh;
     display: flex;
     align-items: center;
+}
+
+header .container
+{
+    height:100vh;
+}
+
+#about img
+{
+position: relative;
+width: 149px;
+    height: 150px;
+border-radius: 100%;
+}
+
+
+#about  ul
+{
+    padding-left: 0 !important;
+    color: #7A7A7A;
+}
+
+#about .fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#about .fa-download:before {
+    content: "\f019";
+}
+
+
+
+#about .download-block img
+{
+    height: 30px;
+    width: 50px;
+}
+
+#about .download-block
+{
+    font-size:20px;
+}
+
+#about .download-block .btn
+{
+font-size: 23px;
+background: #444444;
+border-color: #444444;
+}
+
+#about  p
+{
+    line-height: 30px;
+    color: #7A7A7A;
+
+}
+
+#about {
+    font: 20px/30px 'opensans-bold', sans-serif;
+    background: #2B2B2B;
+    overflow: hidden;
+}
+
+#about .download-block p
+{
+    color: #fff;
+}
+
+#about .download-block a
+{
+    display: flex;
+}
+@media (max-width:629px) {
+    img#optionalstuff {
+      display: none;
+    }
+  }
+
+#about .inform span
+{
+    display: flex;
+    word-break: break-all;
+}
+
+
+@media (max-width:629px) {
+    #responsive-headline {
+        font-size: 40px;
+    }
+  }
+
+  header ul
+  {
+    font-size: 14px;
+  }
+
+#works
+{
+    background: #ebeeee;
+}
+
+#works img
+{
+    width:100%;
+}
+
+#works .header
+{
+    font: 20px/24px 'opensans-semibold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 48px;
+    color: #95A3A3;
+}
+
+#contact .icons i
+{
+    font-size: 40px;
+}
+
+.fab-href
+{
+    color: black;
 }
 

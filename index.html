@@ -6,6 +6,8 @@
 <title>resume</title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://kit.fontawesome.com/0983d3cc4b.js" crossorigin="anonymous"></script>
+
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,18 +15,18 @@
  <header>
 <div class="container">
 
-<div class="row-top-menu">
-<ul class="text-white mt-3">
-    <li>About</li>
-    <li>Resume</li>
-    <li>Portfolio</li>
-    <li>contact</li>
+<div class="row-top-menu" >
+<ul class="text-white mt-3" id="navbar">
+        <a class="text-white" href="#about"><li>About</li></a>
+        <a class="text-white" href="#about"><li>Resume</li></a>
+        <a class="text-white" href="#works"><li>Works</li></a>
+        <a class="text-white" href="#contact"><li>Contact</li></a>
 </ul>
 </div>
 
 <div class="row-banner mt-5">
     <div class="row-text">
-        <h1 class="responsive-headline"> I'm Strelbitsky Miroslav.</h1>
+        <h1 class="responsive-headline" id="responsive-headline"> I'm Strelbitskyi Miroslav.</h1>
         <h6 class="sub-header"> junior java developer</h6>
     </div>
 </div>
@@ -32,10 +34,113 @@
 </div>
 
 </header>   
- <section id="about"> </section>
- <section id="resume" class="pt-4 pb-4"> </section>
- <section id="portfolio" class="pt-4 pb-4"> </section>
- <footer id="contact" class="pt-4 pb-4"> </footer>
+ <section id="about" class="d-flex justify-content-center align-items-center pt-5 pb-5"> 
+    <div class="container text-white pb-5 pt-5">
+        <div class="row mt-5 mb-5 ">
+            <div class="col-sm-3 d-flex justify-content-center">
+                <img id="optionalstuff" src="img/guy.jpg">
+            </div>
+            <div class="col-sm-9">
+                <h2>About me</h2>
+                <p class="mt-1">I'm a student at Odessa national maritime academy on third year of study. I like programming in free time. I will glad to any suggestion to job.
+                 </p>
+                 <div class="row">
+                     <div class="col-sm-6">
+                    <h2>Contact Details</h2>
+                    
+                    <p class="inform">
+                        <span>BestJavaDeveloper24@gmail.com</span>
+                        <span>Phone: +380977793668</span>
+                        <span>Country: Ukraine</span>
+                    </p>
+                 
+                </div>
+                <div class="col-sm-6 download-block d-flex justify-content-center align-items-center">
+                        <a class="btn btn-secondary pt-3 " href="https://drive.google.com/file/d/178bHPuNLioSheVhLgG_Mxff6jNMyFPdo/view" role="button">
+                                <img src="img/download.png"/>
+                            <p>Resume</p>
+                        </a>
+                 </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+ </section>
+ <section id="works" class="pt-4 pb-4 pt-5 pb-5"> 
+<div class="container mt-5 mb-5 pb-5 pt-5">
+    <div class="row d-flex justify-content-center">
+    
+        <h1 class="header">CHECK OUT SOME OF MY WORKS</h1>
+    
+        <div class="row">
+            
+            <div class="col-4">
+            <a target="_blank" href="https://github.com/Bananiys202024/ShopOnline"><img src="img/works/1.jpg"/></a>
+            </div>
+            <div class="col-4">
+            <a target="_blank" href="https://github.com/Bananiys202024/blog"><img src="img/works/2.jpg"/></a>
+            </div>
+            <div class="col-4">
+            <a target="_blank" href="https://github.com/Bananiys202024/learn-foreign-languages"><img src="img/works/3.jpg"/></a>
+            </div>
+        </div>
+
+    </div>
+</div>
+ </section>
+ 
+ <footer id="contact" class="pt-4 pb-4"> 
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color darken-3 pt-4">
+
+        <!-- Footer Elements -->
+        <div class="container justify-content-center">
+      
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+      
+            <!--Grid column-->
+            <div class="col-md-6 icons ">
+      
+                   <a class="fab-href" target="_blank" href="https://github.com/Bananiys202024">
+                    <i class="fab fa-github"></i>
+                 </a> 
+
+      
+            </div>
+            <!--Grid column-->
+      
+          </div>
+          <!--Grid row-->
+      
+        </div>
+        <!-- Footer Elements -->
+      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2018 Copyright:
+          <a target="_blank" href="https://github.com/Bananiys202024"> Bananiys202024</a>
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+
+ </footer>
+
+
+ <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-100px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
 
 </body>
 </html>
