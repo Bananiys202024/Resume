@@ -5,4 +5,4 @@ You can revise resume here:
 https://bananiys202024.github.io/resume/
 
 You can revise CV here:
-https://bananiys202024.github.io/
+https://bananiys202024.github.io/curriculum-vitae/index
